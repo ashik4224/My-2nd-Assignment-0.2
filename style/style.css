@@ -5,7 +5,7 @@ body{
 .header-one{
     position: absolute;
     width: 1440px;
-    height: 715px;
+    height: 771px;
     border: 3px solid red;
     background-color: rgb(17, 17, 17);
     margin-left: 12%;
@@ -131,6 +131,7 @@ body{
       letter-spacing: 0.5px;
       text-align: left;
       margin-left:180px;
+      margin-top: -22%;
   }
   .btn-primary-5{
   position: absolute;
@@ -223,7 +224,7 @@ body{
         align-items: center;
         justify-content: center;
         margin-left: 23%;
-        margin-top: 50%;
+        margin-top: 35%;
     }
     
     
@@ -473,7 +474,7 @@ body{
         top: 138px;
         bottom: 133px;
         border-collapse: collapse;
-        margin-top: 143%;
+        margin-top: 185%;
         margin-left: 14.5%;
         }
         table th{
