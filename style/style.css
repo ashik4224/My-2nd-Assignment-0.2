@@ -324,3 +324,291 @@ body{
         background: url(4);
     }
 
+
+
+    .Calaring{
+        color: rgb(255, 255, 255);
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 15%;
+        margin-top: 4%;
+        }
+        .Calaring-p{
+            color: rgba(255, 255, 255, 0.5);
+            margin-left: 15%;
+        }
+        main{
+            width: 1440px;
+            height: 850px;
+            margin-left:  15%;
+            border: 1px solid red;
+        }
+        .grid-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10%;
+        }
+        .grid-wrapper > div > img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .grid-wrapper  {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-auto-rows: 200px;
+            grid-auto-flow: dense;
+        }
+        .grid-wrapper .wide{
+            grid-column: span 2;
+        }
+        .grid-wrapper  .tall{
+            grid-row: span 2;
+        }
+        .grid-wrapper .big{
+            grid-column: span 2;
+            grid-row: span 2;
+        } 
+        .grid-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .box-1 {
+           width: 323px;
+           height: 250px;
+           margin-top: 20px;
+           margin-bottom: 34px;
+        }
+        .box-2{
+            width: 539px;
+            height: 250px;
+            margin-top: 8px;
+            margin-left: -80px;
+        }
+         .box-3{
+            width: 388px;
+            height: 245px;
+            margin-left: -51.5px;
+            margin-top: 6px;
+           
+         }
+         .box-4 img{
+            width: 450px;
+            height: 240px;
+            margin-left: -180px;
+            margin-top: 30px;
+         }
+         .box-5 img{
+            width: 420px;
+            height: 240px;
+            margin-top: 30px;
+            margin-left: -0px;
+            
+         }
+         .box-6 img{
+            width: 400px;
+            height: 245px;
+            margin-left: -10px;
+            margin-top: 33px;
+         }
+        .last-title h3{
+            color:rgb(255, 255, 255);
+            font-size: 48px;
+            font-weight: 900;
+            line-height: 120%;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-left: 20%;
+            margin-bottom: 5px;
+        }
+        .last-title p{
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.3px;
+            text-align: left; 
+            margin-left: 20%;
+        }
+        /* .table{
+            width: 1440px;
+            height: 487px;
+            margin-left:  20%;
+            border: 1px solid red;
+        } */
+        
+        .Black-Huro{
+            width: 1440px;
+            height: 487px;
+            background-color: rgb(34, 34, 34);
+            padding-top: 20px;
+            margin-left: 15%;
+        
+        
+        }
+        .table-one{
+        color: rgb(255, 255, 255);
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 12%;
+        }
+        .text-1 {
+        position: absolute;
+        width: 310px;
+        height: 216px;
+        left: 189px;
+        right: 941px;
+        top: 138px;
+        bottom: 133px;
+        border-collapse: collapse;
+        margin-top: 143%;
+        margin-left: 14.5%;
+        }
+        table th{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 500;
+        text-align: left;
+        padding-left: 20px;
+        }
+        table td{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        }
+        
+        table,th, td {
+            border:1px solid rgba(255, 255, 255, 0.1);
+            padding-left: 20px;
+        }
+        
+        
+        .table-tow{
+        color: rgb(255, 255, 255);
+        font-size: 28px;
+        font-weight: 900;
+        text-align: left;
+        margin-left: 50%;
+        margin-top: -4%;
+             
+        }
+        p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        margin-left: 50%;
+        }
+        .text-2{
+            width: 577px;
+            height: 150px;
+            border-collapse: collapse;
+            margin-left: 50%; 
+        }
+        select{
+            text-align: left;
+            padding-right: 150px;
+            padding-top: 15px;
+        }
+         .Photo{ 
+            text-align: center;
+            
+        }
+        h1{
+            color: rgb(255, 255, 255); 
+            margin-bottom: 14px;
+            margin-left: 5%;
+        }
+        p{
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+            margin-bottom: 58px;
+            margin-left: 40%;
+        }
+        .web{
+                width: 1060px;
+                height: 650px;
+                margin-left: 22%;
+                margin-top: 5%;
+            }
+        .red{
+            display: block;
+            float: left;
+            width: 30%;
+            padding: 15px;
+        }
+        img{
+            width: 326px;
+            height: 272px;
+            border-radius: 18px;
+            background: rgba(0, 0, 0, 0.2),url(image);
+        }
+        .reddot{
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;
+            
+        }
+        .red-0{
+            width: 1440px;
+            height: 450px;
+            display: flex;
+                
+        }
+        .red-1 h1{
+            color: rgb(230, 83, 60);
+            font-size: 70px;
+            font-weight: 800; 
+            margin-left: 30%;
+        }
+        .red p{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.3px;
+            text-align: left;
+            margin-left: 30%;
+        }
+        .red-2{
+                margin-left: 10%;
+                margin-top: 5%;
+        }
+        .red-2 p{
+            margin-left: 1%;
+            margin-top: 10%;
+        }
+        .red-3{
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+        .red-3 p{
+            margin-left: 1%;
+        }
+        h3{
+            color: rgb(255, 255, 255);
+        }
+        footer p{
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            margin-left: 40%;
+        } 
+        
+
