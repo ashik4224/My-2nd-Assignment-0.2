@@ -1,0 +1,193 @@
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+.header-one{
+    position: absolute;
+    width: 1440px;
+    height: 715px;
+    border: 3px solid red;
+    background-color: rgb(17, 17, 17);
+    margin-left: 12%;
+  }
+  nav{
+      display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 0 200px;
+     }
+  .nav-title{
+  position: static;
+  font-weight: 132px;
+  font-size: 43px;
+  color: rgb(230, 83, 60);
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  }
+    
+     
+  nav ul{
+     display: flex;
+     align-items: center;
+     
+  }
+  nav ul li {
+     list-style: none;
+     margin-right: 50px;
+  }
+  nav li a{
+     text-decoration: none;
+     font-size: 20px;
+  }
+  .nav-text{
+      display: flex;
+  }
+  .btn-primary{
+      position: static;
+      width: 92px;
+      height: 38px;
+      border-radius: 46px;
+      background: rgb(230, 83, 60);
+      }
+      .dark-2{
+          width: 64px;
+          height: 22px;
+          padding: 4px;
+          margin: 0px 47px;
+          color: rgb(255, 255, 255);
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 120%;
+          letter-spacing: 0%;
+          text-align: left;
+      }
+  
+  .banner-title{
+      position: static;
+      width: 520px;
+      height: 282px;
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size: 78px;
+      font-weight: 900;
+      line-height: 120%;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-left:180px;
+      margin-bottom: 28px;
+  }
+  .btn-primary-4{
+  position: absolute;
+  width: 193px;
+  height: 98px;
+  left: 1107px;
+  top: 260px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  }
+  .hh1{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 5%;
+  }
+  .pp1{
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: -20%;
+  }
+  
+  .banner-img{
+      position: absolute;
+      width: 349px;
+      height: 580px;
+      left: 877px;
+      top: 135px;
+      margin-left: -4%;
+  }
+  
+  .banner-description{
+      position: static;
+      width: 520px;
+      height: 282px;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+      text-align: left;
+      margin-left:180px;
+  }
+  .btn-primary-5{
+  position: absolute;
+  width: 206px;
+  height: 96px;
+  left: 764px;
+  top: 556px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  margin-left: -4%;
+  }
+  .hh-2{
+      position: absolute;
+      width: 68px;
+  height: 24px;
+  color: rgb(250, 250, 249);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 5%;
+  }
+  .pp-2{
+  width: 108px;
+  height: 24px;
+  left: 839px;
+  top: 608px;
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 20%;
+  }
+  .btn-primary-2{ 
+      width: 224px;
+      height: 54px;
+      padding: 16px 40px 16px 40px;
+      border-radius: 42px;
+      box-sizing: border-box;
+      background: rgb(230, 83, 60); 
+      margin-top: 60px;
+      color: rgb(255, 255, 255);
+  }
+  .btn-primary-3{
+      width: 224px;
+      height: 54px;
+      padding: 16px 40px 16px 40px;
+      border-radius: 42px;
+      box-sizing: border-box;
+      background:  rgb(28, 28, 28);;
+      margin-top: 60px;
+      color: rgb(255, 255, 255);   
+  }
