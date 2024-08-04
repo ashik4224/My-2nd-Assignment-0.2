@@ -470,7 +470,7 @@ body{
         top: 138px;
         bottom: 133px;
         border-collapse: collapse;
-        margin-top: 178%;
+        margin-top: 190%;
         margin-left: 14.5%;
         }
         table th{
@@ -607,5 +607,19 @@ body{
             text-align: left;
             margin-left: 40%;
         } 
+
+
+@media screen and (max-width: 576px) {
+    .header-one{
+        flex-direction: column;
+    }
+
+    .header-one{
+        flex-direction: column;
+    } 
+     .habits{
+        flex-direction: column;
+}
+}
         
 
